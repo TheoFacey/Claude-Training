@@ -1,0 +1,153 @@
+[     144ms] [ERROR] ./src/lib/prompts/generation.tsx:15:183
+Parsing ecmascript source code failed
+  13 |   * Choose a deliberate, cohesive color palette for each project. Consider warm neutrals, earthy tones, muted pastels, bold complementary pairs, or rich jewel tones — anything that gives the component a distinct character.
+  14 |   * Avoid the overused "dark SaaS" aesthetic (slate/gray dark mode with blue accents) unless the user explicitly asks for it.
+> 15 |   * Typography should have personality: use strong size contrasts, mix font weights purposefully, consider large display text. Don't settle for generic `text-xl font-bold text-white`.
+     |                                                                                                                                                                                       ^
+> 16 |   * Buttons should have visual character — consider outline styles, large/generous padding, bold borders, or creative hover states. Avoid the default solid `bg-blue-600 rounded` pill.
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |   * Cards and containers: think beyond flat dark boxes with `rounded-lg shadow`. Use borders, asymmetric padding, layered backgrounds, or decorative accents to add depth.
+  18 |   * Embrace whitespace and visual rhythm. Use generous spacing and deliberate alignment to create breathing room.
+  19 |   * Components should look crafted and considered, not template-generated. Aim for something a skilled designer would be proud of.
+
+Expression expected @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11193
+[     188ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[     249ms] Error: ./src/lib/prompts/generation.tsx:15:183
+Parsing ecmascript source code failed
+  13 |   * Choose a deliberate, cohesive color palette for each project. Consider warm neutrals, earthy tones, muted pastels, bold complementary pairs, or rich jewel tones — anything that gives the component a distinct character.
+  14 |   * Avoid the overused "dark SaaS" aesthetic (slate/gray dark mode with blue accents) unless the user explicitly asks for it.
+> 15 |   * Typography should have personality: use strong size contrasts, mix font weights purposefully, consider large display text. Don't settle for generic `text-xl font-bold text-white`.
+     |                                                                                                                                                                                       ^
+> 16 |   * Buttons should have visual character — consider outline styles, large/generous padding, bold borders, or creative hover states. Avoid the default solid `bg-blue-600 rounded` pill.
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |   * Cards and containers: think beyond flat dark boxes with `rounded-lg shadow`. Use borders, asymmetric padding, layered backgrounds, or decorative accents to add depth.
+  18 |   * Embrace whitespace and visual rhythm. Use generous spacing and deliberate alignment to create breathing room.
+  19 |   * Components should look crafted and considered, not template-generated. Aim for something a skilled designer would be proud of.
+
+Expression expected
+
+
+    at <unknown> (Error: ./src/lib/prompts/generation.tsx:15:183)
+    at Object.getCompilationErrors (file://C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\server\dev\hot-reloader-turbopack.js:725:59)
+    at DevBundlerService.getCompilationError (file://C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\server\lib\dev-bundler-service.js:39:55)
+    at DevServer.getCompilationError (file://C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\server\dev\next-dev-server.js:643:42)
+    at DevServer.findPageComponents (file://C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\server\dev\next-dev-server.js:613:43)
+    at async DevServer.renderErrorToResponseImpl (file://C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\server\base-server.js:2619:26)
+[     254ms] [ERROR] ./src/lib/prompts/generation.tsx:15:183
+Parsing ecmascript source code failed
+  13 |   * Choose a deliberate, cohesive color palette for each project. Consider warm neutrals, earthy tones, muted pastels, bold complementary pairs, or rich jewel tones — anything that gives the component a distinct character.
+  14 |   * Avoid the overused "dark SaaS" aesthetic (slate/gray dark mode with blue accents) unless the user explicitly asks for it.
+> 15 |   * Typography should have personality: use strong size contrasts, mix font weights purposefully, consider large display text. Don't settle for generic `text-xl font-bold text-white`.
+     |                                                                                                                                                                                       ^
+> 16 |   * Buttons should have visual character — consider outline styles, large/generous padding, bold borders, or creative hover states. Avoid the default solid `bg-blue-600 rounded` pill.
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |   * Cards and containers: think beyond flat dark boxes with `rounded-lg shadow`. Use borders, asymmetric padding, layered backgrounds, or decorative accents to add depth.
+  18 |   * Embrace whitespace and visual rhythm. Use generous spacing and deliberate alignment to create breathing room.
+  19 |   * Components should look crafted and considered, not template-generated. Aim for something a skilled designer would be proud of.
+
+Expression expected @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11193
+[     256ms] [ERROR] ./src/lib/prompts/generation.tsx:15:183
+Parsing ecmascript source code failed
+  13 |   * Choose a deliberate, cohesive color palette for each project. Consider warm neutrals, earthy tones, muted pastels, bold complementary pairs, or rich jewel tones — anything that gives the component a distinct character.
+  14 |   * Avoid the overused "dark SaaS" aesthetic (slate/gray dark mode with blue accents) unless the user explicitly asks for it.
+> 15 |   * Typography should have personality: use strong size contrasts, mix font weights purposefully, consider large display text. Don't settle for generic `text-xl font-bold text-white`.
+     |                                                                                                                                                                                       ^
+> 16 |   * Buttons should have visual character — consider outline styles, large/generous padding, bold borders, or creative hover states. Avoid the default solid `bg-blue-600 rounded` pill.
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |   * Cards and containers: think beyond flat dark boxes with `rounded-lg shadow`. Use borders, asymmetric padding, layered backgrounds, or decorative accents to add depth.
+  18 |   * Embrace whitespace and visual rhythm. Use generous spacing and deliberate alignment to create breathing room.
+  19 |   * Components should look crafted and considered, not template-generated. Aim for something a skilled designer would be proud of.
+
+Expression expected @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11193
+[     344ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/favicon.ico:0
+[     347ms] [ERROR] ./src/lib/prompts/generation.tsx:15:183
+Parsing ecmascript source code failed
+  13 |   * Choose a deliberate, cohesive color palette for each project. Consider warm neutrals, earthy tones, muted pastels, bold complementary pairs, or rich jewel tones — anything that gives the component a distinct character.
+  14 |   * Avoid the overused "dark SaaS" aesthetic (slate/gray dark mode with blue accents) unless the user explicitly asks for it.
+> 15 |   * Typography should have personality: use strong size contrasts, mix font weights purposefully, consider large display text. Don't settle for generic `text-xl font-bold text-white`.
+     |                                                                                                                                                                                       ^
+> 16 |   * Buttons should have visual character — consider outline styles, large/generous padding, bold borders, or creative hover states. Avoid the default solid `bg-blue-600 rounded` pill.
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |   * Cards and containers: think beyond flat dark boxes with `rounded-lg shadow`. Use borders, asymmetric padding, layered backgrounds, or decorative accents to add depth.
+  18 |   * Embrace whitespace and visual rhythm. Use generous spacing and deliberate alignment to create breathing room.
+  19 |   * Components should look crafted and considered, not template-generated. Aim for something a skilled designer would be proud of.
+
+Expression expected @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11193
+[     348ms] [ERROR] ./src/lib/prompts/generation.tsx:15:183
+Parsing ecmascript source code failed
+  13 |   * Choose a deliberate, cohesive color palette for each project. Consider warm neutrals, earthy tones, muted pastels, bold complementary pairs, or rich jewel tones — anything that gives the component a distinct character.
+  14 |   * Avoid the overused "dark SaaS" aesthetic (slate/gray dark mode with blue accents) unless the user explicitly asks for it.
+> 15 |   * Typography should have personality: use strong size contrasts, mix font weights purposefully, consider large display text. Don't settle for generic `text-xl font-bold text-white`.
+     |                                                                                                                                                                                       ^
+> 16 |   * Buttons should have visual character — consider outline styles, large/generous padding, bold borders, or creative hover states. Avoid the default solid `bg-blue-600 rounded` pill.
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |   * Cards and containers: think beyond flat dark boxes with `rounded-lg shadow`. Use borders, asymmetric padding, layered backgrounds, or decorative accents to add depth.
+  18 |   * Embrace whitespace and visual rhythm. Use generous spacing and deliberate alignment to create breathing room.
+  19 |   * Components should look crafted and considered, not template-generated. Aim for something a skilled designer would be proud of.
+
+Expression expected @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11193
+[     449ms] [ERROR] ./src/lib/prompts/generation.tsx:15:183
+Parsing ecmascript source code failed
+  13 |   * Choose a deliberate, cohesive color palette for each project. Consider warm neutrals, earthy tones, muted pastels, bold complementary pairs, or rich jewel tones — anything that gives the component a distinct character.
+  14 |   * Avoid the overused "dark SaaS" aesthetic (slate/gray dark mode with blue accents) unless the user explicitly asks for it.
+> 15 |   * Typography should have personality: use strong size contrasts, mix font weights purposefully, consider large display text. Don't settle for generic `text-xl font-bold text-white`.
+     |                                                                                                                                                                                       ^
+> 16 |   * Buttons should have visual character — consider outline styles, large/generous padding, bold borders, or creative hover states. Avoid the default solid `bg-blue-600 rounded` pill.
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |   * Cards and containers: think beyond flat dark boxes with `rounded-lg shadow`. Use borders, asymmetric padding, layered backgrounds, or decorative accents to add depth.
+  18 |   * Embrace whitespace and visual rhythm. Use generous spacing and deliberate alignment to create breathing room.
+  19 |   * Components should look crafted and considered, not template-generated. Aim for something a skilled designer would be proud of.
+
+Expression expected @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11193
+[   24878ms] [ERROR] ./src/lib/prompts/generation.tsx:15:183
+Parsing ecmascript source code failed
+  13 |   * Choose a deliberate, cohesive color palette for each project. Consider warm neutrals, earthy tones, muted pastels, bold complementary pairs, or rich jewel tones — anything that gives the component a distinct character.
+  14 |   * Avoid the overused "dark SaaS" aesthetic (slate/gray dark mode with blue accents) unless the user explicitly asks for it.
+> 15 |   * Typography should have personality: use strong size contrasts, mix font weights purposefully, consider large display text. Don't settle for generic `text-xl font-bold text-white`.
+     |                                                                                                                                                                                       ^
+> 16 |   * Buttons should have visual character — consider outline styles, large/generous padding, bold borders, or creative hover states. Avoid the default solid `bg-blue-600 rounded` pill.
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |   * Cards and containers: think beyond flat dark boxes with `rounded-lg shadow`. Use borders, asymmetric padding, layered backgrounds, or decorative accents to add depth.
+  18 |   * Embrace whitespace and visual rhythm. Use generous spacing and deliberate alignment to create breathing room.
+  19 |   * Components should look crafted and considered, not template-generated. Aim for something a skilled designer would be proud of.
+
+Expression expected @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11193
+[   94900ms] [ERROR] ./src/lib/prompts/generation.tsx:15:183
+Parsing ecmascript source code failed
+  13 |   * Choose a deliberate, cohesive color palette for each project. Consider warm neutrals, earthy tones, muted pastels, bold complementary pairs, or rich jewel tones — anything that gives the component a distinct character.
+  14 |   * Avoid the overused "dark SaaS" aesthetic (slate/gray dark mode with blue accents) unless the user explicitly asks for it.
+> 15 |   * Typography should have personality: use strong size contrasts, mix font weights purposefully, consider large display text. Don't settle for generic `text-xl font-bold text-white`.
+     |                                                                                                                                                                                       ^
+> 16 |   * Buttons should have visual character — consider outline styles, large/generous padding, bold borders, or creative hover states. Avoid the default solid `bg-blue-600 rounded` pill.
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |   * Cards and containers: think beyond flat dark boxes with `rounded-lg shadow`. Use borders, asymmetric padding, layered backgrounds, or decorative accents to add depth.
+  18 |   * Embrace whitespace and visual rhythm. Use generous spacing and deliberate alignment to create breathing room.
+  19 |   * Components should look crafted and considered, not template-generated. Aim for something a skilled designer would be proud of.
+
+Expression expected @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11193
+[  110924ms] [ERROR] ./src/lib/prompts/generation.tsx:15:183
+Parsing ecmascript source code failed
+  13 |   * Choose a deliberate, cohesive color palette for each project. Consider warm neutrals, earthy tones, muted pastels, bold complementary pairs, or rich jewel tones — anything that gives the component a distinct character.
+  14 |   * Avoid the overused "dark SaaS" aesthetic (slate/gray dark mode with blue accents) unless the user explicitly asks for it.
+> 15 |   * Typography should have personality: use strong size contrasts, mix font weights purposefully, consider large display text. Don't settle for generic `text-xl font-bold text-white`.
+     |                                                                                                                                                                                       ^
+> 16 |   * Buttons should have visual character — consider outline styles, large/generous padding, bold borders, or creative hover states. Avoid the default solid `bg-blue-600 rounded` pill.
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |   * Cards and containers: think beyond flat dark boxes with `rounded-lg shadow`. Use borders, asymmetric padding, layered backgrounds, or decorative accents to add depth.
+  18 |   * Embrace whitespace and visual rhythm. Use generous spacing and deliberate alignment to create breathing room.
+  19 |   * Components should look crafted and considered, not template-generated. Aim for something a skilled designer would be proud of.
+
+Expression expected @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11193
+[  192213ms] [ERROR] ./src/lib/prompts/generation.tsx:15:183
+Parsing ecmascript source code failed
+  13 |   * Choose a deliberate, cohesive color palette for each project. Consider warm neutrals, earthy tones, muted pastels, bold complementary pairs, or rich jewel tones — anything that gives the component a distinct character.
+  14 |   * Avoid the overused "dark SaaS" aesthetic (slate/gray dark mode with blue accents) unless the user explicitly asks for it.
+> 15 |   * Typography should have personality: use strong size contrasts, mix font weights purposefully, consider large display text. Don't settle for generic `text-xl font-bold text-white`.
+     |                                                                                                                                                                                       ^
+> 16 |   * Buttons should have visual character — consider outline styles, large/generous padding, bold borders, or creative hover states. Avoid the default solid `bg-blue-600 rounded` pill.
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  17 |   * Cards and containers: think beyond flat dark boxes with `rounded-lg shadow`. Use borders, asymmetric padding, layered backgrounds, or decorative accents to add depth.
+  18 |   * Embrace whitespace and visual rhythm. Use generous spacing and deliberate alignment to create breathing room.
+  19 |   * Components should look crafted and considered, not template-generated. Aim for something a skilled designer would be proud of.
+
+Expression expected @ http://localhost:3000/_next/static/chunks/%5Broot-of-the-server%5D__e2c08166._.js:11193

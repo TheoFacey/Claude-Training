@@ -1,0 +1,59 @@
+[     535ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[     625ms] Error: Cannot find module '../chunks/ssr/[turbopack]_runtime.js'
+Require stack:
+- C:\Users\theof\Documents\projects\uigen\.next\server\pages\_document.js
+- C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\server\require.js
+- C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\server\load-components.js
+- C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\build\utils.js
+- C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\build\swc\options.js
+- C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\build\swc\index.js
+- C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\build\next-config-ts\transpile-config.js
+- C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\server\config.js
+- C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\server\next.js
+- C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1456:15)
+    at <unknown> (file://C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\server\require-hook.js:55:36)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (file://C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (file://C:\Users\theof\Documents\projects\uigen\.next\server\pages\_document.js:2:17)
+    at Module._compile (node:internal/modules/cjs/loader:1812:14)
+    at Object..js (node:internal/modules/cjs/loader:1943:10)
+    at Module.load (node:internal/modules/cjs/loader:1533:32)
+    at Module._load (node:internal/modules/cjs/loader:1335:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1556:12)
+    at mod.require (file://C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (file://C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\server\require.js:103:84)
+    at loadComponentsImpl (file://C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\server\load-components.js:86:38)
+    at DevServer.findPageComponentsImpl (file://C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\server\next-server.js:820:77)
+    at <unknown> (file://C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\server\next-server.js:798:21)
+    at <unknown> (file://C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\server\lib\trace\tracer.js:169:36)
+    at NoopContextManager.with (file://C:\Users\theof\Documents\projects\uigen\node_modules\@opentelemetry\api\build\src\context\NoopContextManager.js:25:19)
+    at ContextAPI.with (file://C:\Users\theof\Documents\projects\uigen\node_modules\@opentelemetry\api\build\src\api\context.js:60:46)
+    at NoopTracer.startActiveSpan (file://C:\Users\theof\Documents\projects\uigen\node_modules\@opentelemetry\api\build\src\trace\NoopTracer.js:65:31)
+    at ProxyTracer.startActiveSpan (file://C:\Users\theof\Documents\projects\uigen\node_modules\@opentelemetry\api\build\src\trace\ProxyTracer.js:36:24)
+    at <unknown> (file://C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\server\lib\trace\tracer.js:151:103)
+    at NoopContextManager.with (file://C:\Users\theof\Documents\projects\uigen\node_modules\@opentelemetry\api\build\src\context\NoopContextManager.js:25:19)
+    at ContextAPI.with (file://C:\Users\theof\Documents\projects\uigen\node_modules\@opentelemetry\api\build\src\api\context.js:60:46)
+    at NextTracerImpl.trace (file://C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\server\lib\trace\tracer.js:151:28)
+    at DevServer.findPageComponents (file://C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\server\next-server.js:793:41)
+    at DevServer.findPageComponents (file://C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\server\dev\next-dev-server.js:628:28)
+    at async DevServer.renderErrorToResponseImpl (file://C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\server\base-server.js:2619:26)
+    at async pipe.req.req (file://C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\server\base-server.js:2541:30)
+    at async DevServer.pipeImpl (file://C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\server\base-server.js:1008:25)
+    at async NextNodeServer.handleCatchallRenderRequest (file://C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\server\next-server.js:320:21)
+    at async DevServer.handleRequestImpl (file://C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\server\base-server.js:900:17)
+    at async (file://C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\server\dev\next-dev-server.js:371:20)
+    at async Span.traceAsyncFn (file://C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (file://C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\server\dev\next-dev-server.js:368:24)
+    at async invokeRender (file://C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\server\lib\router-server.js:237:21)
+    at async handleRequest (file://C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\server\lib\router-server.js:428:24)
+    at async requestHandlerImpl (file://C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\server\lib\router-server.js:452:13)
+    at async Server.requestListener (file://C:\Users\theof\Documents\projects\uigen\node_modules\next\dist\server\lib\start-server.js:158:13)
+[     666ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/favicon.ico:0
